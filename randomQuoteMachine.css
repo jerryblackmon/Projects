@@ -1,0 +1,82 @@
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css);
+@import url(https://use.fontawesome.com/releases/v5.5.0/css/all.css);
+@import url(https://fonts.googleapis.com/css?family=Lovers+Quarrel);
+*{
+  margin:0;
+  padding:0;
+}
+h1{font-size:7vw;
+}
+h2{
+  font-size:6vw;
+}
+h3{
+  font-size:5vw;
+ }
+h4{
+  font-size:4vw;
+ }
+h5{
+  font-size:3vw;
+ }
+h6{
+  font-size:2vw;
+ }
+p{
+  font-size:1vw;
+ }
+body{
+ display:flex;
+  font-family: 'Lovers Quarrel', cursive;
+  color:#000;
+  text-shadow:2px 4px 8px #000;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+div{
+  position:relative;
+  align-items:left;
+ }
+#wrapper{
+  display:flex;
+  }
+#quote-box{
+  border-radius:30px;
+  border:10px double black;
+  position:relative;
+  max-width:50vw;
+  }
+#quote-text{
+  justify-content:center;
+  padding:1vw;
+  margin:auto;
+  height:auto;
+  clear:both;
+  }
+#author{
+  position:relative;
+  margin:auto;
+  padding:1vw;
+  right: 1vw;
+}
+.buttons{
+  border-radius:10px;
+  display:block;
+  }
+#new-quote{
+  margin:1vw;
+  
+  
+  position:relative;
+  position:relative;
+  text-shadow:2px 4px 8px #000;
+}
+#tweet-quote
+{
+  padding-left:5vw;
+  position:relative;
+  }
+{
+  margin:10px;
+    }
